@@ -25,21 +25,10 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">Model Results</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Get A Good Accuracy For the Custom YOLO Model
               </p>
-              <ul className="body-2">
-                {brainwaveServices.map((item, index) => (
-                  <li
-                    key={index}
-                    className="flex items-start py-4 border-t border-n-6"
-                  >
-                    <img width={24} height={24} src={check} />
-                    <p className="ml-4">{item}</p>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
 
