@@ -37,9 +37,11 @@ import curve2 from "./collaboration/curve-2.svg";
 import cameraIcon from "./collaboration/cameraIcon.png";
 import annotationIcon from "./collaboration/annotationIcon.png";
 
-import service1 from "./services/service-1.png";
+import service1 from "./services/service-1.jpg";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
+import service4 from "./services/service-4.png";
+import service5 from "./services/service-5.jpg";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -107,6 +109,8 @@ export {
   service1,
   service2,
   service3,
+  service5,
+  service4,
   lines,
   stars,
   coins,
