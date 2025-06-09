@@ -8,7 +8,7 @@ const Footer = () => {
         <p className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}. 2025 Improving IDS Using AI to Enhanced
           the vehicle Saftey Research Project University of Sri Jayewardenepura
-          | Department of Information & Comminication Technology.s
+          | Department of Information & Comminication Technology
         </p>
       </div>
     </Section>
