@@ -42,6 +42,7 @@ import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
 import service4 from "./services/service-4.png";
 import service5 from "./services/service-5.jpg";
+import service6 from "./services/service-6.mp4";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -111,6 +112,7 @@ export {
   service3,
   service5,
   service4,
+  service6,
   lines,
   stars,
   coins,

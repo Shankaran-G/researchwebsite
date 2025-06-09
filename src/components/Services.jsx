@@ -1,6 +1,6 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2, service3, service4, service5 } from "../assets";
+import { service1, service2, service3, service5, service6 } from "../assets";
 
 const Services = () => {
   return (
@@ -12,6 +12,13 @@ const Services = () => {
         />
 
         <div className="relative">
+          <div className="mb-8 overflow-hidden rounded-3xl border border-n-1/10">
+            <h4 className="h4 mb- ml-10">Model Sample Testing Video</h4>
+            <video className="w-full h-auto rounded-3xl" controls playsInline>
+              <source src={service6} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
           <div className="relative z-1 flex items-center h-[30rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[35rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
